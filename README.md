@@ -1,2 +1,8 @@
-# mauikit-filebrowsing
-https://invent.kde.org/maui/mauikit-filebrowsing
+# MauiKit filebrowsing [![Build Status](https://travis-ci.org/Nitrux/mauikit-filebrowsing.svg?branch=main)](https://travis-ci.org/Nitrux/mauikit-filebrowsing)
+
+MauiKit-filebrowsing from Git master.
+
+# Issues
+If you find problems with the contents of this repository please create an issue.
+
+©2021 Nitrux Latinoamericana S.C.
