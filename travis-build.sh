@@ -30,7 +30,7 @@ git clone --single-branch --branch v2.0 https://invent.kde.org/maui/mauikit-file
 
 mv mauikit-filebrowsing/* .
 
-rm -rf mauikit examples LICENSES README.md
+rm -rf mauikit-filebrowsing examples LICENSES README.md
 
 ### Build Deb
 
