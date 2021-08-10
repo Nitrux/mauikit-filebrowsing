@@ -16,6 +16,8 @@ wget -qO /etc/apt/sources.list.d/nitrux-repo.list https://raw.githubusercontent.
 
 apt -qq update
 
+apt-cache policy
+
 ### Install Dependencies
 
 DEBIAN_FRONTEND=noninteractive apt -qq -yy install --no-install-recommends devscripts debhelper gettext lintian build-essential automake autotools-dev cmake extra-cmake-modules appstream qml-module-qtquick-controls2 qml-module-qtquick-shapes qml-module-qtgraphicaleffects mauikit-dev
