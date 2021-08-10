@@ -14,6 +14,8 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \
 
 curl -L https://packagecloud.io/nitrux/repo/gpgkey | apt-key add -;
 
+wget -qO /etc/apt/sources.list.d/nitrux-repo.list https://raw.githubusercontent.com/Nitrux/iso-tool/development/configs/files/sources.list.nitrux
+
 apt -qq update
 
 ### Install Dependencies
