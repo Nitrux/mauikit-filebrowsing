@@ -1,4 +1,4 @@
-# MauiKit filebrowsing [![Build Status](https://travis-ci.org/Nitrux/mauikit-filebrowsing.svg?branch=main)](https://travis-ci.org/Nitrux/mauikit-filebrowsing)
+# MauiKit filebrowsing [![Build Status](https://travis-ci.org/Nitrux/mauikit-filebrowsing.svg?branch=arm64)](https://travis-ci.org/Nitrux/mauikit-filebrowsing)
 
 MauiKit-filebrowsing from Git master.
 
