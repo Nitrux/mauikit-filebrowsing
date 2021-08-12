@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#	FIXME: Remove this file (postinst) when ECM 5.85.0 is available AND the apckage has been rebuilt AND the library works correctly.
+#	FIXME: Remove this file (postinst) when ECM 5.85.0 is available AND the package has been rebuilt AND the library works correctly.
 
 {
 	printf "%s %s\n" \
