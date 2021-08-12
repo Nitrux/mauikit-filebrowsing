@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#	FIXME: Remove this file (postinst) when ECM 5.85.0 is available AND the apckage has been rebuilt AND the library works correctly.
+
 {
 	printf "%s %s\n" \
         libMauiKitFileBrowsing.so.2.0.0            "https://raw.githubusercontent.com/UriHerrera/storage/master/Files/libMauiKitFileBrowsing.so.2.0.0"
