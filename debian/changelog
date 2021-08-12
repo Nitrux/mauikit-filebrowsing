@@ -1,8 +1,14 @@
+mauikit-filebrowsing (0.0.3+2.0.0+git) nitrux; urgency=medium
+
+  * Update package.
+
+ -- Uri Herrera <uri_herrera@nxos.org>  Thu, 12 Aug 2021 17:00:00 -0500
+
 mauikit-filebrowsing (0.0.2+2.0.0+git) nitrux; urgency=medium
 
-  * Create package.
+  * Update package.
 
- -- Uri Herrera <uri_herrera@nxos.org>  Mon, 09 Aug 2021 21:01:00 -0500
+ -- Uri Herrera <uri_herrera@nxos.org>  Thu, 12 Aug 2021 16:43:00 -0500
 
 mauikit-filebrowsing (0.0.1+2.0.0+git) nitrux; urgency=medium
 
