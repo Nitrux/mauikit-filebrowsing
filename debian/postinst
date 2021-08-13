@@ -2,16 +2,16 @@
 
 #	FIXME: Remove this file (postinst) when ECM 5.85.0 is available AND the package has been rebuilt AND the library works correctly.
 
-{
-	printf "%s %s\n" \
-        libMauiKitFileBrowsing.so.2.0.0            "https://raw.githubusercontent.com/UriHerrera/storage/master/Files/libMauiKitFileBrowsing.so.2.0.0"
-} | {
-	while read name url; do
-		axel -a -n 2 -q -k -U "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" "$url" -o /opt/$name
-	done
-}
+# {
+# 	printf "%s %s\n" \
+#         libMauiKitFileBrowsing.so.2.0.0            "https://raw.githubusercontent.com/UriHerrera/storage/master/Files/libMauiKitFileBrowsing.so.2.0.0"
+# } | {
+# 	while read name url; do
+# 		axel -a -n 2 -q -k -U "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" "$url" -o /opt/$name
+# 	done
+# }
 
-cp -r /opt/libMauiKitFileBrowsing.so.2.0.0  /usr/lib/x86_64-linux-gnu/qt5/qml/org/mauikit/filebrowsing/
-cp -r /opt/libMauiKitFileBrowsing.so.2.0.0 /usr/lib/x86_64-linux-gnu/
+# cp -r /opt/libMauiKitFileBrowsing.so.2.0.0  /usr/lib/x86_64-linux-gnu/qt5/qml/org/mauikit/filebrowsing/
+# cp -r /opt/libMauiKitFileBrowsing.so.2.0.0 /usr/lib/x86_64-linux-gnu/
 
-rm -r /opt/libMauiKitFileBrowsing.so.2.0.0
+# rm -r /opt/libMauiKitFileBrowsing.so.2.0.0
