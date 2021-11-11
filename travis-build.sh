@@ -12,9 +12,9 @@ wget -qO /etc/apt/sources.list.d/neon-user-repo.list https://raw.githubuserconte
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \
 	55751E5D > /dev/null
 
-curl -L https://packagecloud.io/nitrux/repo/gpgkey | apt-key add -;
+curl -L https://packagecloud.io/nitrux/testing/gpgkey | apt-key add -;
 
-wget -qO /etc/apt/sources.list.d/nitrux-repo.list https://raw.githubusercontent.com/Nitrux/iso-tool/development/configs/files/sources.list.nitrux
+wget -qO /etc/apt/sources.list.d/nitrux-testing-repo.list https://raw.githubusercontent.com/Nitrux/iso-tool/development/configs/files/sources.list.nitrux.testing
 
 apt -qq update
 
@@ -26,7 +26,7 @@ mk-build-deps -i -t "apt-get --yes" -r
 
 ### Clone repo.
 
-git clone --depth 1 --branch v2.1 https://invent.kde.org/maui/mauikit-filebrowsing.git
+git clone --depth 1 --branch v2.1.0 https://invent.kde.org/maui/mauikit-filebrowsing.git
 
 mv mauikit-filebrowsing/* .
 
