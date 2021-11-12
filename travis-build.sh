@@ -43,17 +43,18 @@ DEBIAN_FRONTEND=noninteractive apt -qq -yy install --no-install-recommends \
 	libkf5kio-dev \
 	mauikit-dev \
 	qtbase5-dev \
-	qtdeclarative5-dev
+	qtdeclarative5-dev \
+	qtquickcontrols2-5-dev
 
 ### Clone Repository
 
-git clone --depth 1 --branch v2.1 https://invent.kde.org/maui/mauikit.git
+git clone --depth 1 --branch v2.1 https://invent.kde.org/maui/mauikit-filebrowsing.git
 
-rm -rf mauikit/{demo,LICENSE,README.md}
+rm -rf mauikit-filebrowsing/{demo,LICENSE,README.md}
 
 ### Compile Source
 
-mkdir -p mauikit/build && cd mauikit/build
+mkdir -p mauikit-filebrowsing/build && cd mauikit-filebrowsing/build
 
 cmake \
 	-DCMAKE_INSTALL_PREFIX=/usr \
