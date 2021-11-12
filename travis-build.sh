@@ -36,6 +36,7 @@ wget -qO /etc/apt/sources.list.d/nitrux-testing-repo.list https://raw.githubuser
 DEBIAN_FRONTEND=noninteractive apt -qq update
 
 ### Install Package Build Dependencies #2
+### Filebrowsing needs ECM > 5.70
 
 DEBIAN_FRONTEND=noninteractive apt -qq -yy install --no-install-recommends \
 	libkf5coreaddons-dev \
@@ -46,11 +47,14 @@ DEBIAN_FRONTEND=noninteractive apt -qq -yy install --no-install-recommends \
 	qtdeclarative5-dev \
 	qtquickcontrols2-5-dev
 
+DEBIAN_FRONTEND=noninteractive apt -qq -yy install --only-upgrade \
+	extra-cmake-modules
+
 ### Clone Repository
 
 git clone --depth 1 --branch v2.1 https://invent.kde.org/maui/mauikit-filebrowsing.git
 
-rm -rf mauikit-filebrowsing/{demo,LICENSE,README.md}
+rm -rf mauikit-filebrowsing/{examples,LICENSE,README.md}
 
 ### Compile Source
 
