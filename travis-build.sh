@@ -103,7 +103,7 @@ checkinstall -D -y \
 	--pkggroup=lib \
 	--pkgsource=mauikit-filebrowsing \
 	--pakdir=../.. \
-	--maintainer="Uri Herrera <uri_herrera@nxos.org>" \
+	--maintainer=uri_herrera@nxos.org \
 	--provides=mauikit-filebrowsing \
 	--requires="libc6,libkf5configcore5,libkf5kiocore5,libkf5kiofilewidgets5,libkf5kiogui5,libkf5kiowidgets5,libkf5service5,libkf5solid5,mauikit \(\>= 2.1.0\),libqt5core5a,libqt5gui5,libqt5network5,libqt5qml5,libqt5quick5,libqt5sql5,libqt5xml5,libstdc++6,qml-module-org-kde-kirigami2,qml-module-qt-labs-settings,qml-module-qtquick-controls2,qml-module-qtquick-shapes" \
 	--nodoc \
