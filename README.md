@@ -14,7 +14,7 @@ _A free and modular front-end framework for developing user experiences._
 ### Requirements
 
 #### Debian/Ubuntu
-##### Accounts needs ECM > 5.70
+##### Filebrowsing needs ECM > 5.70
 
 ```
 libkf5coreaddons-dev
