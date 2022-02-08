@@ -42,7 +42,7 @@ DEBIAN_FRONTEND=noninteractive apt -qq -yy install --no-install-recommends \
 	libkf5coreaddons-dev \
 	libkf5i18n-dev \
 	libkf5kio-dev \
-	mauikit \
+	mauikit-git \
 	qtbase5-dev \
 	qtdeclarative5-dev \
 	qtquickcontrols2-5-dev
@@ -52,7 +52,7 @@ DEBIAN_FRONTEND=noninteractive apt -qq -yy install --only-upgrade \
 
 ### Clone Repository
 
-git clone --depth 1 --branch v2.1 https://invent.kde.org/maui/mauikit-filebrowsing.git
+git clone --depth 1 --branch v2.1.1 https://invent.kde.org/maui/mauikit-filebrowsing.git
 
 rm -rf mauikit-filebrowsing/{examples,LICENSE,README.md}
 
@@ -95,8 +95,8 @@ make
 checkinstall -D -y \
 	--install=no \
 	--fstrans=yes \
-	--pkgname=mauikit-filebrowsing \
-	--pkgversion=2.1.0 \
+	--pkgname=mauikit-filebrowsing-git \
+	--pkgversion=2.1.1+git+2 \
 	--pkgarch=amd64 \
 	--pkgrelease="1" \
 	--pkglicense=LGPL-3 \
@@ -104,8 +104,8 @@ checkinstall -D -y \
 	--pkgsource=mauikit-filebrowsing \
 	--pakdir=../.. \
 	--maintainer=uri_herrera@nxos.org \
-	--provides=mauikit-filebrowsing \
-	--requires="libc6,libkf5configcore5,libkf5kiocore5,libkf5kiofilewidgets5,libkf5kiogui5,libkf5kiowidgets5,libkf5service5,libkf5solid5,mauikit \(\>= 2.1.0\),libqt5core5a,libqt5gui5,libqt5network5,libqt5qml5,libqt5quick5,libqt5sql5,libqt5xml5,libstdc++6,qml-module-org-kde-kirigami2,qml-module-qt-labs-settings,qml-module-qtquick-controls2,qml-module-qtquick-shapes" \
+	--provides=mauikit-filebrowsing-git \
+	--requires="libc6,libkf5configcore5,libkf5kiocore5,libkf5kiofilewidgets5,libkf5kiogui5,libkf5kiowidgets5,libkf5service5,libkf5solid5,mauikit-git \(\>= 2.1.1+git\),libqt5core5a,libqt5gui5,libqt5network5,libqt5qml5,libqt5quick5,libqt5sql5,libqt5xml5,libstdc++6,qml-module-org-kde-kirigami2,qml-module-qt-labs-settings,qml-module-qtquick-controls2,qml-module-qtquick-shapes" \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
