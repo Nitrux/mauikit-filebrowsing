@@ -54,6 +54,7 @@ $APT_COMMAND install -qy --no-install-recommends \
     libxcb-icccm4-dev \
     libxcb-shape0-dev \
     lintian \
+    nlohmann-json3-dev \
     qml-module-qtgraphicaleffects \
     qml-module-qtquick-controls2 \
     qml-module-qtquick-shapes \
@@ -63,3 +64,4 @@ $APT_COMMAND install -qy --no-install-recommends \
     qtpositioning5-dev \
     qtquickcontrols2-5-dev \
     xxd
+    
