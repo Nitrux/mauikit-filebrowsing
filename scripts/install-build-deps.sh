@@ -104,10 +104,10 @@ $APT_COMMAND install -y - --no-install-recommends \
 
 mkdir -p /etc/apt/keyrings
 
-curl -fsSL https://packagecloud.io/nitrux/mauikit/gpgkey | gpg --dearmor -o /etc/apt/keyrings/nitrux_mauikit-archive-keyring.gpg
+curl -fsSL https://packagecloud.io/nitrux/zbkit/gpgkey | gpg --dearmor -o /etc/apt/keyrings/nitrux_zbkit-archive-keyring.gpg
 
-cat <<EOF > /etc/apt/sources.list.d/nitrux-mauikit.list
-deb [signed-by=/etc/apt/keyrings/nitrux_mauikit-archive-keyring.gpg] https://packagecloud.io/nitrux/mauikit/debian/ bookworm main
+cat <<EOF > /etc/apt/sources.list.d/nitrux-zbkit.list
+deb [signed-by=/etc/apt/keyrings/nitrux_zbkit-archive-keyring.gpg] https://packagecloud.io/nitrux/zbkit/debian/ bookworm main
 EOF
 
 $APT_COMMAND update -q
