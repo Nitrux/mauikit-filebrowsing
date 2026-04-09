@@ -65,12 +65,12 @@ checkinstall -D -y \
 	--pkgarch="$(dpkg --print-architecture)" \
 	--pkgrelease="1" \
 	--pkglicense=LGPL-3 \
-	--pkggroup=lib \
+	--pkggroup=libs \
 	--pkgsource=mauikit-filebrowsing \
 	--pakdir=. \
 	--maintainer=uri_herrera@nxos.org \
-	--provides=mauikit-filebrowsing-git \
-	--requires="libc6,libkf6coreaddons6,libkf6i18n6,libkf6iconthemes6,libqt6core6t64,libqt6gui6,libqt6multimedia6,libqt6multimediawidgets6,libqt6qml6,libqt6quick6,libqt6quickcontrols2-6,libqt6quickshapes6,libqt6spatialaudio6,libqt6svg6,libqt6svgwidgets6,mauikit \(\>= 4.0.2),qml6-module-org-kde-kirigami,qml6-module-qtmultimedia,qml6-module-qtquick-controls,qml6-module-qtquick-shapes,qml6-module-qtquick3d-spatialaudio" \
+	--provides=mauikit-filebrowsing \
+	--requires="libc6,libkf6coreaddons6,libkf6i18n6,libkf6iconthemes6,libqt6core6t64,libqt6gui6,libqt6multimedia6,libqt6multimediawidgets6,libqt6qml6,libqt6quick6,libqt6quickcontrols2-6,libqt6quickshapes6,libqt6spatialaudio6,libqt6svg6,libqt6svgwidgets6,mauikit \(\>= 4.0.2\),qml6-module-org-kde-kirigami,qml6-module-qtmultimedia,qml6-module-qtquick-controls,qml6-module-qtquick-shapes,qml6-module-qtquick3d-spatialaudio"" \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
