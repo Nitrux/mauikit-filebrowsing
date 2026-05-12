@@ -11,7 +11,7 @@ set -e
 
 # -- Download Source
 
-git clone --depth 1 --branch "$MAUIKIT_FILEBROWSING_BRANCH" https://invent.kde.org/maui/mauikit-filebrowsing.git
+git clone --depth 1 --branch "$MAUIKIT_FILEBROWSING_BRANCH" https://github.com/Nitrux/mauikit-filebrowsing-src.git
 
 rm -rf mauikit-filebrowsing/{examples,LICENSE,README.md}
 
