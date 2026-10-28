@@ -59,7 +59,7 @@ Priority: optional
 Architecture: ${TARGET_ARCH}
 Maintainer: uri_herrera@nxos.org
 Provides: mauikit-filebrowsing
-Depends: qml6-module-qtquick-effects,qml6-module-qtquick-layouts,libkf6bookmarks6,libkf6configcore6,libkf6kiofilewidgets6,libkf6kiocore6,libkf6kiogui6,libkf6solid6,libqt6concurrent6,libqt6dbus6,libqt6network6,libqt6sql6,libqt6widgets6,libqt6xml6,ffmpegthumbs,kdegraphics-thumbnailers,kio-extras,libc6,libkf6coreaddons6,libkf6i18n6,libkf6iconthemes6,libqt6core6t64,libqt6gui6,libqt6multimedia6,libqt6multimediawidgets6,libqt6qml6,libqt6quick6,libqt6quickcontrols2-6,libqt6quickshapes6,libqt6spatialaudio6,libqt6svg6,libqt6svgwidgets6,mauikit (>= 4.0.4),qml6-module-org-kde-kirigami,qml6-module-qtmultimedia,qml6-module-qtquick-controls,qml6-module-qtquick-shapes,qml6-module-qtquick3d-spatialaudio
+Depends: qml6-module-qtquick-effects,qml6-module-qtquick-layouts,libkf6bookmarks6,libkf6configcore6,libkf6kiofilewidgets6,libkf6kiocore6,libkf6kiogui6,libkf6solid6,libqt6concurrent6,libqt6dbus6,libqt6network6,libqt6sql6,libqt6widgets6,libqt6xml6,ffmpegthumbs,kdegraphics-thumbnailers,kio-extras,libc6,libkf6coreaddons6,libkf6i18n6,libkf6iconthemes6,libqt6core6t64,libqt6gui6,libqt6multimedia6,libqt6multimediawidgets6,libqt6qml6,libqt6quick6,libqt6quickcontrols2-6,libqt6quickshapes6,libqt6spatialaudio6,libqt6svg6,libqt6svgwidgets6,mauikit (>= 4.0.5),qml6-module-org-kde-kirigami,qml6-module-qtmultimedia,qml6-module-qtquick-controls,qml6-module-qtquick-shapes,qml6-module-qtquick3d-spatialaudio
 Description: mauikit-filebrowsing
  mauikit-filebrowsing
 CONTROL
